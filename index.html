@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Modulare Werbe-Trailer</title>
+  <style>
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 40px;
+      background: #f0f0f0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .ad-wrapper {
+      width: 250px;
+      height: 250px;
+      position: relative;
+      overflow: hidden;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+    }
+    a.cta-button {
+      position: absolute;
+      font-size: 10px;
+      padding: 6px 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 15px;
+      font-family: 'Segoe UI', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: white;
+      text-decoration: none;
+      border-radius: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s ease;
+      z-index: 100;
+    }
+    .ad-wrapper:hover .cta-button {
+      transform: translateX(-50%) scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<div class="ad-wrapper" id="ad1">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta1" class="cta-button">🚀 entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad2">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta2" class="cta-button">🏡 entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad3">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta3" class="cta-button">🔨 entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad4">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta4" class="cta-button">👶 entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad5">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta5" class="cta-button">🛠 entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad6">
+  <canvas width="250" height="250"></canvas>
+  <a href="#" id="cta6" class="cta-button">❤️ entdecken</a>
+</div>
+
+<div class="ad-wrapper" id="ad7">
+    <canvas width="250" height="250"></canvas>
+    <a href="#" id="cta7" class="cta-button">💪 entdecken</a>
+  </div>
+  
+  <div class="ad-wrapper" id="ad8">
+    <canvas width="250" height="250"></canvas>
+    <a href="#" id="cta8" class="cta-button">✈️ entdecken</a>
+  </div>
+  
+  <div class="ad-wrapper" id="ad9">
+    <canvas width="250" height="250"></canvas>
+    <a href="#" id="cta9" class="cta-button">💻 entdecken</a>
+  </div>
+  
+  <div class="ad-wrapper" id="ad10">
+    <canvas width="250" height="250"></canvas>
+    <a href="#" id="cta10" class="cta-button">🍔 entdecken</a>
+  </div>
+
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="ad1_polarisx.js"></script>
+<script src="ad2_immoplus.js"></script>
+<script src="ad3_handwerk.js"></script>
+<script src="ad4_kitaplus.js"></script>
+<script src="ad5_bauplus.js"></script>
+<script src="ad6_pflegeplus.js"></script>
+<script src="ad7_fitness.js"></script>
+<script src="ad8_reisen.js"></script>
+<script src="ad9_tech.js"></script>
+<script src="ad10_food.js"></script>
+
+<script>
+  ad1_start();
+  ad2_start();
+  ad3_start();
+  ad4_start();
+  ad5_start();
+  ad6_start();
+  ad7_start();
+  ad8_start();
+  ad9_start();
+  ad10_start();
+</script>
+
+</body>
+</html>
