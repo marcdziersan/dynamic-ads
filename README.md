@@ -143,10 +143,6 @@ MIT License - Freie Nutzung für kommerzielle und private Projekte
 
 ---
 
-**💡 Tipp**: Nutzen Sie unsere [Beispiel-Sammlung](https://github.com/your-repo/examples) für Inspiration bei der Erstellung Ihrer eigenen Ads!
-
----
-
 <p align="center">
   <b>✨ Mit diesem Projekt erstellen Sie ansprechende Web-Anzeigen in Rekordzeit!</b>
 </p>
