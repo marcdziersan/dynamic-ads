@@ -2,7 +2,7 @@
 
 ## CMS-Erweiterungskonzept
 
-Ich entwickle eine WordPress-Plugin-Variante des Dynamic Ad Generators, die es Nicht-Technikern ermöglicht, die animierten Ads einfach zu verwalten.
+Entwickle eine WordPress-Plugin-Variante des Dynamic Ad Generators, die es Nicht-Technikern ermöglicht, die animierten Ads einfach zu verwalten.
 
 ### Plugin-Struktur
 
